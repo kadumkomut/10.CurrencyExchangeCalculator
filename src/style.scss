@@ -1,0 +1,50 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Dela Gothic One', cursive;
+    background-color: #3498db;
+}
+
+header {
+    font-size: 1.7rem;
+    text-align: center;
+    letter-spacing: 5px;
+    color:white;
+    background-color: #2980b9;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+.formStyle {
+    display: flex;
+    padding:20px;
+    width: 100%;
+    margin:auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2980b9;
+
+    div {
+        padding:20px;
+        display: flex;
+
+        input {
+            flex-grow: 3;
+            padding:20px;
+            outline: none;
+        }
+        .currencyList {
+            outline:none;
+
+            flex-grow: 1;
+        }
+    }
+
+    
+}
+
